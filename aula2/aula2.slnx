@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="aula2.vcxproj" Id="69b61554-d625-493b-ac3f-e8aab495eaff" />
+</Solution>
