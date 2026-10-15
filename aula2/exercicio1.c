@@ -82,5 +82,61 @@ int main() {
 	printf("%s | %.2f", nome_funcionario2, salario_funcionario2);
 
 #pragma endregion
+#pragma region Exercicio5
+	int cod_peca;
+	int stock;
+	float preco;
+
+	printf("Qual o codigo da peca?\n");
+	scanf_s("%d\n", &cod_peca);
+	printf("Qual a quantidade da peca?\n");
+	scanf_s("%d\n", &stock);
+	printf("Qual o preco da peca?\n");
+	scanf_s("%f", &preco);
+
+	printf("Codigo: %d, Quantidade: %d, Preco: %.2f", cod_peca, stock, preco);
+#pragma endregion
+#pragma region Exercicio6
+	//int aceita todos os numeros inteiros, positivos e negativos
+	//uint aceita apenas numeros inteiros positivos
+#pragma endregion
+#pragma region Exercicio7
+	//Exemplo com uma linha
+	/*	
+	Exemplo com multiplas linhas
+	*/
+#pragma endregion
+#pragma region Exercicio8
+	char nome[50];
+	char email[100];
+	int idade;
+
+	printf("Digite seu nome:\n");
+	gets_s(nome, sizeof(nome));
+	
+	printf("Digite seu email:\n");
+	gets_s(email, sizeof(email));
+
+	printf("Digite sua idade:\n");
+	scanf_s("%d", &idade);
+
+	printf("Nome: %s\n", nome);
+	printf("Email: %s\n", email);
+	printf("Idade: %d\n", idade);
+#pragma endregion
+#pragma region Exercicio9
+	printf("===============================\n");
+	printf("===============================\n");
+	printf("/           EMPRESA           /\n");
+	printf("/ Data: 15/10/2026   SQ: 3294 /\n");
+	printf("/                             /\n");
+	printf("/  RATO OPTICO ------ $39,99  /\n");
+	printf("/  RATO OPTICO ------ $39,99  /\n");
+	printf("/  RATO OPTICO ------ $39,99  /\n");
+	printf("/                             /\n");
+	printf("/  Contribuinte --- 123456789 /\n");
+	printf("===============================\n");
+	printf("===============================\n");
+#pragma endregion
 		return 0;
 }
